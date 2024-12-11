@@ -330,6 +330,20 @@
             margin-top: 1rem;
        }
  }
+/* Mobile (e.g., iPhone 8) */
+@media screen and (min-width:321px) and (max-width:375px){
+     .first__container-login,
+       .second__container-login{
+            top: 52%;       
+       }
+      .container {
+            padding: 0px 5px 120px;
+            border: none;
+       }
+       .logo {
+            margin: 10px auto 0;
+       }
+}
  
  @media screen and (min-width:376px) and (max-width:414px){
       .first__container-login,
