@@ -322,39 +322,103 @@
       .site__language-section {
            flex-direction: column;
       }
+
       .logo {
-             margin: 30px auto 0;
-        }
-       footer {
-            padding: 1rem 0 1rem;
-            margin-top: 1rem;
-       }
+           margin: 30px auto 0;
+      }
+
+      footer {
+           padding: 1rem 0 1rem;
+           margin-top: 1rem;
+      }
  }
-/* Mobile (e.g., iPhone 8) */
-@media screen and (min-width:321px) and (max-width:375px){
-     .first__container-login,
-       .second__container-login{
-            top: 52%;       
-       }
-      .container {
-            padding: 0px 5px 120px;
-            border: none;
-       }
-       .logo {
-            margin: 10px auto 0;
-       }
-}
- 
- @media screen and (min-width:376px) and (max-width:414px){
+
+ /* Mobile (e.g., iPhone 8) */
+ @media screen and (min-width:321px) and (max-width:375px) {
+
       .first__container-login,
-       .second__container-login{
-            top: 52%;       
-       }
+      .second__container-login {
+           top: 52%;
+      }
+
       .container {
-            padding: 0px 5px 120px;
-            border: none;
+           padding: 0px 5px 120px;
+           border: none;
+      }
+
+      .logo {
+           margin: 10px auto 0;
+      }
+ }
+
+
+ @media screen and (min-width:376px) and (max-width:414px) {
+
+      .first__container-login,
+      .second__container-login {
+           top: 52%;
+      }
+
+      .container {
+           padding: 0px 5px 120px;
+           border: none;
+      }
+
+      .logo {
+           margin: 10px auto 0;
+      }
+ }
+
+ /* Large Mobile (e.g., iPhone 12, Galaxy S20) */
+ /* Small Tablet (e.g., iPad Mini) */
+ @media (min-width:415px) and (max-width: 765px) {
+
+      .first__container-login,
+      .second__container-login {
+           top: 60%;
+           max-width: 100%;
+           padding: 0rem 2rem;
+      }
+
+      .container {
+           padding: 0px 5px 120px;
+           border: none;
+      }
+
+      .logo {
+           margin: 10px auto 0;
+      }
+       .container__input {
+     
+            padding-top: 5rem;
        }
-       .logo {
-            margin: 10px auto 0;
-       }
+
+ }
+
+ /* Large Mobile (e.g., iPhone 16Pro Max) */
+ @media only screen and (min-device-width: 430px) and (max-device-width: 450px) {
+
+      .first__container-login,
+      .second__container-login {
+           top: 52%;
+      }
+
+      .container {
+           padding: 0px 5px 120px;
+           border: none;
+      }
+
+      .logo {
+           margin: 10px auto 0;
+      }
+
+ }
+
+ /* Large Tablet (e.g., iPad Pro) */
+ @media (min-width:811px) and (max-width:1024px) {
+
+      .first__container-login,
+      .second__container-login {
+           top: 50%;
+      }
  }
