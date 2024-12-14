@@ -54,7 +54,7 @@ img {
 .second__container-login {
     width: 100%;
     max-width: 500px;
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
     position: absolute;
     top: 60%;
     left: 50%;
@@ -316,7 +316,7 @@ footer a {
     .first__container-login,
     .second__container-login {
 
-         top: 50%;
+         top: 40%;
     }
 
     .container {
@@ -347,7 +347,7 @@ footer a {
 
     .first__container-login,
     .second__container-login {
-         top: 52%;
+         top: 40%;
     }
 
     .container {
@@ -370,7 +370,7 @@ footer a {
 
     .first__container-login,
     .second__container-login {
-         top: 52%;
+         top: 40%;
     }
 
     .container {
@@ -393,28 +393,64 @@ footer a {
 
     .first__container-login,
     .second__container-login {
-         top: 60%;
-         max-width: 100%;
-         padding: 0rem 2rem;
+         top: 65%;
+         max-width: 550px;
     }
 
     .container {
-         padding: 0px 5px 120px;
-         border: none;
+        padding: 30px 50px 50px;
+       
     }
-
-    .logo{
-        margin: 100px auto 0; 
+  
+    .logo {
+        margin: 15px auto 20px;
+        width: 40px;
+        height: 40px;
     }
-
-    .back-logo {
-         margin: 100px auto 0;
+    .back-logo{
+        margin: 10px auto 0;
+        width: 40px;
+        height: 40px;
+    
     }
-
-     .container__input {
+    input {
+        min-height: 80px;
+       
+    }
+    
+.site__language-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.50rem;
+    padding: 7rem 0 0 0;
+    flex-shrink: 0;
+   }
+   .previous__page-email, .previous__text, .prev__btn, 
+   .site__forgot-email, .site__next-btn, .site__signup-btn {
+    font-size: 1.3rem;
+   }
+   .site__next-btn, .site__signup-btn{
+    padding: 1rem 2rem;
+   }
+   .site__france,
+   .site__espanish,
+   .site__china {
+       font-size: 1rem; 
+   }
    
-          padding-top: 5rem;
-     }
+   .site__english {
+       font-size: 1.1rem; 
+   }
+   ::placeholder {
+    font-size: 1.2rem;;
+  } 
+  .site__separator-text{
+    font-size: 1.4rem;
+  }
+  footer a {
+    font-size: 0.90rem;
+  } 
 
 }
 /* Standard Tablet (e.g., iPad) */
