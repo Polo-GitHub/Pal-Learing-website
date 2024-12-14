@@ -316,7 +316,7 @@ footer a {
     .first__container-login,
     .second__container-login {
 
-         top: 40%;
+         top: 43%;
     }
 
     .container {
@@ -347,7 +347,7 @@ footer a {
 
     .first__container-login,
     .second__container-login {
-         top: 40%;
+         top: 43%;
     }
 
     .container {
@@ -370,7 +370,7 @@ footer a {
 
     .first__container-login,
     .second__container-login {
-         top: 40%;
+         top: 43%;
     }
 
     .container {
@@ -419,12 +419,7 @@ footer a {
     }
     
 .site__language-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.50rem;
     padding: 7rem 0 0 0;
-    flex-shrink: 0;
    }
    .previous__page-email, .previous__text, .prev__btn, 
    .site__forgot-email, .site__next-btn, .site__signup-btn {
