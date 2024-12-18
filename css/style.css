@@ -311,7 +311,7 @@ footer a {
 /* Media Queries */
 
 /* Small Mobile (e.g., iPhone SE) */
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
 
     .first__container-login,
     .second__container-login {
@@ -343,7 +343,7 @@ footer a {
 }
 
 /* Mobile (e.g., iPhone 8) */
-@media screen and (min-width:321px) and (max-width:375px) {
+@media  (min-width:321px) and (max-width:375px) {
 
     .first__container-login,
     .second__container-login {
@@ -366,7 +366,7 @@ footer a {
 }
 
 
-@media screen and (min-width:376px) and (max-width:414px) {
+@media (min-width:376px) and (max-width:414px) {
 
     .first__container-login,
     .second__container-login {
